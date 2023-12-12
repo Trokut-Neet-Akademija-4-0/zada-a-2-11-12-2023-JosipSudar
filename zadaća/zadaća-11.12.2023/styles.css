@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Rethink+Sans&display=swap');
+
+body {
+    margin: 0 auto;
+    max-width: 991px;
+    background-color: #d9d9d9;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+header {
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3c6e71;
+    color: #ffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: fixed;
+    z-index: 999;
+    width: 991px;
+    top: 0;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero img {
+    margin-top: -80px;
+    height: 500px;
+}
+
+.hero h1 {
+    font-size: 35px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+* p:first-of-type {
+    text-transform: capitalize;
+}
+
+.main_text {
+    font-family: 'Hedvig Letters Serif', serif;
+    text-align: justify;
+    font-weight: bold;
+    word-spacing: 5px;
+    margin-top: 40px;
+}
+
+.main_text p {
+    margin: 40px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    background-color: #353535;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+footer ul {
+    list-style-type: square;
+    color: #ffff;
+}
+
+footer li {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+footer img {
+    margin: 0 7px;
+    transition: 0.3s;
+}
+
+.facebook:hover {
+    background-color: blue;
+    color: white;
+}
+
+.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+}
+
+.tiktok:hover {
+    background: linear-gradient(#ff0050, #00f2ea, #000000);
+}
+
+.twitter:hover {
+    background-color: white;
+}
+
+/*services*/
+.services {
+    margin-top: 150px;
+}
+
+.services h2 {
+    text-align: center;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 30px;
+    padding: 0px;
+}
+
+.services p {
+    text-align: justify;
+    font-family: 'Hedvig Letters Serif', serif;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.services img:hover {
+    opacity: 0.4;
+}
+
+.cars {
+    display: flex;
+    flex-direction: column;
+}
+
+.services button {
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: dimgray;
+    width: fit-content;
+    color: #ffff;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 6px 20px;
+}
+
+.services button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.two,
+.three img {
+    padding: 20px;
+}
+
+.three {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+/*about*/
+.about {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.about h2 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about li {
+    margin: 7px 0;
+}
+
+blockquote,
+q {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+iframe {
+    margin-left: 20%;
+}
+
+.contact {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: #ffffff85;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.077);
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+}
+
+input {
+    width: 235px;
+    margin: 10px 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.right p {
+    font-weight: bold;
+}
+
+.right span {
+    font-weight: 300;
+}
+
+.right_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 25px;
+}
+
+textarea {
+    resize: none;
+}
+
+.left form button {
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: dimgray;
+    width: fit-content;
+    color: #ffff;
+    text-align: center;
+    margin-left: 60%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 6px 20px;
+}
+
+.left form button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+input[type=text]:focus {
+    border: 3px solid #000000;
+}
+
+textarea:focus {
+    border: 3px solid #000000;
+}
+
+.search button:hover {
+    background-color: #e7e7e7;
+}
